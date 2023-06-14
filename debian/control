@@ -1,0 +1,23 @@
+Source: zarya-meta
+Section: metapackages
+Priority: optional
+Maintainer: Muqtadir <muqtadir5555@gmail.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+
+Package: zarya-desktop
+Architecture: amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Components for zarya
+ This metapackage installs the complete packages for zarya-session.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: zarya-live
+Architecture: amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: zarya Live Settings
+ Configuration for the zarya's live session
