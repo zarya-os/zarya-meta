@@ -1,3 +1,9 @@
+zarya-meta (44.1) lunar; urgency=medium
+
+  * Miscellanous changes
+
+ -- Muqtadir <muqtadir5555@gmail.com>  Wed, 14 Jun 2023 14:16:48 +0530
+
 zarya-meta (44) lunar; urgency=medium
 
   * Initial packaging
