@@ -241,5 +241,6 @@ libx11-protocol-perl
 xfonts-scalable
 mesa-vulkan-drivers
 xserver-xorg-video-all
-xcvt xserver-xorg-input-wacom
+xcvt
+xserver-xorg-input-wacom
 docbook-xml
